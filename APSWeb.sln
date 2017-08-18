@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.LojaVirtual", "MVC.LojaVirtual\MVC.LojaVirtual.csproj", "{9F3C6DB2-8087-4ECA-9529-CAC81616C1BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaVirtual.Domain", "LojaVirtual.Domain\LojaVirtual.Domain.csproj", "{70E72A54-43C3-4BA5-92BA-1E96C8B19128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaVirtual.Infra", "LojaVirtual.Infra\LojaVirtual.Infra.csproj", "{616C594A-432D-4600-92EE-F0821212F4F9}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F3C6DB2-8087-4ECA-9529-CAC81616C1BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F3C6DB2-8087-4ECA-9529-CAC81616C1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F3C6DB2-8087-4ECA-9529-CAC81616C1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F3C6DB2-8087-4ECA-9529-CAC81616C1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70E72A54-43C3-4BA5-92BA-1E96C8B19128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E72A54-43C3-4BA5-92BA-1E96C8B19128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E72A54-43C3-4BA5-92BA-1E96C8B19128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E72A54-43C3-4BA5-92BA-1E96C8B19128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{616C594A-432D-4600-92EE-F0821212F4F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{616C594A-432D-4600-92EE-F0821212F4F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{616C594A-432D-4600-92EE-F0821212F4F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{616C594A-432D-4600-92EE-F0821212F4F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
